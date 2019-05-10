@@ -1,0 +1,250 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+  font: 15px Lato, Georgia, "Times New Roman", Times, serif;
+  line-height: 3;
+  color: black;
+}
+.jumbotron {
+			background-color: #ff8000;
+			color: #ffffff;
+			padding: 90px 25px 90px;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			text-align: center; 
+			text-transform: uppercase;
+	        
+		}
+	.container-fluid {
+		padding: 40px 50px;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		}
+		.bg-grey {
+			background-color: #ff8000;}
+			.panel{border: 2px double #EDC45B outset;}
+			.panel:hover{box-shadow: 3px 7px 30px #FF5733;}
+			.equipo .panel-heading{
+			color: #fff;
+			background-color: #F7780F;
+			padding: 25px; 
+			padding-top: 25px; 
+			border-bottom: 1px solid;
+			border-top-left-radius: 7px; 
+			border-top-right-radius: 0px;
+			border-bottom-left-radius: 0px;
+			border-bottom-right-radius: 0px;	
+				}
+			.panel-footer {background-color: black;		border-bottom-right-radius: 10px;
+}
+			.panel-footer h4{
+			color: #0c7cf5;
+			font-size: 15px;
+			letter-spacing: 2px;
+			text-transform: uppercase;	}
+	
+	.panel-body{ background: transparent;
+	text-align:justify;
+	text-transform: capitalize;
+	
+	}
+			@media screen and (min-width: 320px){
+				img {max-width: 100%;
+			
+			}
+			                  }	
+			@media screen and (min-width: 768px) {
+    img { max-width: 150px;
+   }
+}
+@media screen and (min-width: 980px){
+   img{max-width: 225px;
+   }
+}
+@media screen and (min-width: 1200px) {
+    img { max-width: 300px;
+    }
+}
+.icono{
+	color: white;
+	font-size: 20px;
+}
+.pie{color:white;}
+
+.menu {
+    background-color: white;
+    padding: 2px 0px 0px;
+    border: outset 1px;
+	border-color: white;
+    font-size: 12px;
+    line-height: 1.42;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+}
+.menu .navbar-nav li a, .menu .navbar-brand {
+	color: black;
+	vertical-align: top;
+}
+.menu .navbar-nav li a:hover, .menu .navbar-nav li.active a{
+	color: white;
+	background-color: orange;
+}
+.menu .navbar-default .menu .navbar-toggle{
+	border-color: transparent;
+	color: #fff;
+}
+footer .glyphicon {
+	font-size: 30px;
+	margin-bottom: 10px;
+	color: orange;
+	background: white;
+	
+}
+
+
+
+
+
+/*Colores de letra*/
+.letrafondonaranja{
+	font-size: 19px;
+	line-height: 1.375em;
+	color: white;
+	font-weight: 400;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	border: double 1px;
+	border-color: inherit;
+	padding: 7px;
+	border-top-left-radius: 10px;
+}
+
+h2{
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #202020;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.letrafondoblanco{
+	background: #ff8000;
+	color: white;
+	background-size: contain;
+	text-transform: uppercase;
+}
+
+.acercade{
+	box-shadow: black 5px 5px 10px;
+	text-transform: uppercase;
+	padding: 10px;	
+}
+
+.acercade:hover{
+	box-shadow: black 5px 5px 10px;
+	text-transform: uppercase;
+	padding: 10px;
+	background: #ff8000;
+	color: white;
+	border-radius: 15px;
+}
+
+/*Cierre colores de letra*/
+
+
+/*Imágenes*/
+
+#logo{
+	margin: -4.5px;
+	display: inline-block;
+	height: 65px;
+	width: 78%;
+	padding: 0px;
+}
+
+#imagenvalores{
+	border: outset 5px white;
+}
+#imagenvalores:hover{
+	box-shadow: black 5px 5px 10px;
+	
+}
+.tiendaimagen{
+	border: outset white 3px;
+	border-radius: 15px;
+}
+/*Cierre Imágenes*/ 
+
+
+/*Sección productos*/
+.tipodeproducto{ 
+ 
+
+}
+
+.producto{
+	color: black;
+	padding: 15px;
+	padding: 0px;
+	margin: 15px;
+	}
+	
+.descripciondeproducto{
+	
+	border: 3px double orange;
+	border-radius: 20px;
+	padding: 13px;
+}
+/*Sección Tiendas*/
+.tiendade {
+	color: white;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+	background: transparent;
+}
+
+.tiendade:hover{
+	background: #31C820;
+	cursor: context-menu;
+	box-shadow: white 10px 5px 7px;
+	padding: 6px;
+}
+.tiendaABC{
+	color: white;
+}
+
+
+/*Sección Contacto*/
+#contactobotonenviar{
+	background-color: green;
+	color: white;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding: 10px;
+	box-shadow: inset;
+	}
+
+.contacto{
+	color: white; 
+	align-content: center;
+	text-decoration-style: double;
+}
+.informaciondecontacto{
+	color: white;
+	font-family: Cambria, "Hoefler 		     Text", "Liberation Serif",      Times, "Times New Roman",     "serif";
+	text-transform: uppercase;
+	padding: 0px 0px 30px 0px;
+	vertical-align: text-top;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	line-height: 1.5px;
+}
+.informaciondecontacto h4{
+vertical-align: text-top
+}
+/*Cierre Sección Contacto*/
+
+
+
+
+
+	
+
